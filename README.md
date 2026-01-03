@@ -8,7 +8,7 @@ Mechanistic Interpretability tools for auditing safety circuits in Transformer m
 
 ##  Executive Summary
 This project provides a **Mechanistic Interpretability** framework for auditing the internal reasoning of GPT-2. 
-![AI Forensic Audit Map](auditmap.png)
+![AI Forensic Audit Map](newplot%20(1).png)
 
 As we shift from simple LLMs to **Autonomous Agents**, "Black Box" transparency is no longer optional. This audit maps the **Activation Delta ($\Delta$)** of specific neurons to identify "Safety Triggers"—internal circuits that respond to hostile intent before an output is even generated.
 ---
