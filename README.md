@@ -13,7 +13,6 @@ This project provides a **Mechanistic Interpretability** framework for auditing 
 As we shift from simple LLMs to **Autonomous Agents**, "Black Box" transparency is no longer optional. This audit maps the **Activation Delta ($\Delta$)** of specific neurons to identify "Safety Triggers"—internal circuits that respond to hostile intent before an output is even generated.
 ---
 ##  Strategic Design Decisions
-
 ### 1. Resource Constraint Engineering (4GB RAM)
 To enable high-level research on edge hardware (Google Colab Free Tier), I implemented:
 * **Gradient-Free Caching:** Using `run_with_cache` to extract internal states without storing unnecessary backprop data.
